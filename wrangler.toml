@@ -1,0 +1,17 @@
+name = "email-management-worker"
+main = "src/index.ts"
+compatibility_date = "2023-03-16"
+
+[vars]
+UNICLOUD_URL = "https://env-00jxt0xsffn5.dev-hz.cloudbasefunction.cn/POST_cloudflare_edukg_email"
+
+# R2存储 - 可选，如果不需要可以注释掉
+# [[r2_buckets]]
+# binding = "R2_BUCKET"
+# bucket_name = "dmarc-reports-open"
+# preview_bucket_name = "dmarc-reports-open"
+
+# Analytics Engine - 可选，如果不需要可以注释掉
+# [[analytics_engine_datasets]]
+# binding = "DMARC_ANALYTICS"
+# dataset = "dmarc_reports"

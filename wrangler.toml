@@ -1,4 +1,4 @@
-name = "email-management-worker"
+name = "getunicloud"
 main = "src/index.ts"
 compatibility_date = "2023-03-16"
 
@@ -14,4 +14,5 @@ UNICLOUD_URL = "https://env-00jxt0xsffn5.dev-hz.cloudbasefunction.cn/POST_cloudf
 # Analytics Engine - 可选，如果不需要可以注释掉
 # [[analytics_engine_datasets]]
 # binding = "DMARC_ANALYTICS"
+
 # dataset = "dmarc_reports"
